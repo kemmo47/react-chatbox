@@ -13,10 +13,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        <ParlantChatbox
-          server="https://composed-firmly-basilisk.ngrok-free.app/"
-          agentId="0xoHu3IWP4"
-        />
+        <ParlantChatbox server="http://172.16.0.25:8800" agentId="0xoHu3IWP4" />
       </div>
     </div>
   );
